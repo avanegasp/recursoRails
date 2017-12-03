@@ -1,0 +1,16 @@
+<!-- <% 3.times do %>
+  <p>Hola Mundo</p>
+<% end %> -->
+
+
+<!-- <h1><%= @greeting %></h1> -->
+
+<table>
+  <%@products.each do |product|%>
+  <tr>
+    <td><%=product.name%></td>
+    <td><%=product.description%></td>
+    <td><%=product.price%></td>
+  </tr>
+  <%end%>
+</table>
